@@ -15,17 +15,13 @@
     </parent>
     <groupId>com.ashitsathish</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>spring-pet-clinic</name>
     <description>Project for Spring Boot MVC</description>
 
     <properties>
         <java.version>11</java.version>
     </properties>
-
-    <dependencies>
-
-    </dependencies>
 
     <build>
         <plugins>
@@ -50,5 +46,4 @@
             <url>https://repo.spring.io/milestone</url>
         </pluginRepository>
     </pluginRepositories>
-
 </project>
