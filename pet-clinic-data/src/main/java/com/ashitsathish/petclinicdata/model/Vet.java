@@ -1,4 +1,4 @@
-package com.ashitsathish.springpetclinic.model;
+package com.ashitsathish.petclinicdata.model;
 
 /**
  * Created by ashitsathish on Jul,2020
