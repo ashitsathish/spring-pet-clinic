@@ -1,14 +1,14 @@
 package com.ashitsathish.petclinicdata.services.map;
 
 import com.ashitsathish.petclinicdata.model.Vet;
-import com.ashitsathish.petclinicdata.services.CrudService;
+import com.ashitsathish.petclinicdata.services.VetService;
 
 import java.util.Set;
 
 /**
  * Created by ashitsathish on Jul,2020
  */
-public class VetServiceMap extends AbstractMapService<Vet,Long> implements CrudService<Vet,Long> {
+public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
