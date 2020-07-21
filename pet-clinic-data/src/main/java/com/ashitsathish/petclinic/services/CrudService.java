@@ -1,4 +1,4 @@
-package com.ashitsathish.petclinicdata.services;
+package com.ashitsathish.petclinic.services;
 
 import java.util.Set;
 

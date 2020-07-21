@@ -1,6 +1,6 @@
-package com.ashitsathish.petclinicdata.services;
+package com.ashitsathish.petclinic.services;
 
-import com.ashitsathish.petclinicdata.model.Pet;
+import com.ashitsathish.petclinic.model.Pet;
 
 /**
  * Created by ashitsathish on Jul,2020

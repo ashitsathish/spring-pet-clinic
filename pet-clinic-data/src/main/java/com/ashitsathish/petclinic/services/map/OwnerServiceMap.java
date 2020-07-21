@@ -1,7 +1,7 @@
-package com.ashitsathish.petclinicdata.services.map;
+package com.ashitsathish.petclinic.services.map;
 
-import com.ashitsathish.petclinicdata.model.Owner;
-import com.ashitsathish.petclinicdata.services.OwnerService;
+import com.ashitsathish.petclinic.model.Owner;
+import com.ashitsathish.petclinic.services.OwnerService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;

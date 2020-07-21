@@ -1,9 +1,9 @@
-package com.ashitsathish.petclinicweb.bootstrap;
+package com.ashitsathish.petclinic.bootstrap;
 
-import com.ashitsathish.petclinicdata.model.Owner;
-import com.ashitsathish.petclinicdata.model.Vet;
-import com.ashitsathish.petclinicdata.services.OwnerService;
-import com.ashitsathish.petclinicdata.services.VetService;
+import com.ashitsathish.petclinic.model.Owner;
+import com.ashitsathish.petclinic.model.Vet;
+import com.ashitsathish.petclinic.services.OwnerService;
+import com.ashitsathish.petclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

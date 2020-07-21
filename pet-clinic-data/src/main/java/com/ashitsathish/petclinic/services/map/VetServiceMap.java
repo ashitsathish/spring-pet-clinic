@@ -1,7 +1,7 @@
-package com.ashitsathish.petclinicdata.services.map;
+package com.ashitsathish.petclinic.services.map;
 
-import com.ashitsathish.petclinicdata.model.Pet;
-import com.ashitsathish.petclinicdata.services.PetService;
+import com.ashitsathish.petclinic.model.Vet;
+import com.ashitsathish.petclinic.services.VetService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
@@ -10,24 +10,24 @@ import java.util.Set;
  * Created by ashitsathish on Jul,2020
  */
 @Service
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService{
+public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
     @Override
-    public Set<Pet> findAll() {
+    public Set<Vet> findAll() {
         return super.findAll();
     }
 
     @Override
-    public Pet findById(Long id) {
+    public Vet findById(Long id) {
         return super.findById(id);
     }
 
     @Override
-    public Pet save(Pet object) {
+    public Vet save(Vet object) {
         return super.save(object.getId(), object);
     }
 
     @Override
-    public void delete(Pet object) {
+    public void delete(Vet object) {
         super.delete(object);
     }
 

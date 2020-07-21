@@ -1,4 +1,4 @@
-package com.ashitsathish.petclinicdata.model;
+package com.ashitsathish.petclinic.model;
 
 import lombok.Getter;
 import lombok.Setter;
