@@ -24,4 +24,8 @@ public class OwnerController {
         System.out.println(ownerService.findAll().size());
         return "owners/index";
     }
+    @RequestMapping({"/find"})
+    public String findOwners(){
+        return "notimplemented";
+    }
 }
