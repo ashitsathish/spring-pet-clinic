@@ -1,7 +1,6 @@
 package com.ashitsathish.petclinic.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -10,8 +9,8 @@ import java.util.Set;
 /**
  * Created by ashitsathish on Jul,2020
  */
+@Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
 @Entity
-@Getter @Setter
 @Table(name = "vets")
 public class Vet extends Person {
    @ManyToMany(fetch = FetchType.EAGER)
