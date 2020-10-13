@@ -8,6 +8,7 @@ import java.util.*;
  * Created by ashitsathish on Jul,2020
  */
 public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> {
+
     protected Map<Long, T> map = new HashMap<>();
     Set<T> findAll(){
         return new HashSet(map.values());
